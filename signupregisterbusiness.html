@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--First thing added was the doctype. This is important because it must declare the Language that I am working with.-->
+<html lang= "en-CA">
+  <head>
+    <!-- I am using UTF-8 character set, because it covers almost all of the characters and symbols in the world! -->
+   <meta charset="utf-8">
+   <!-- The following meta tag is very important for responsive design, it adressess the scaling of elements. -->
+   <meta name="viewport" content="width=device-width, intial-scale=1">
+   <!-- width is the device's width no matter the device and 16 pixels is 16 pixels on any device -->
+     <!-- Next important tag is the tittle tag. -->
+   <title>Sara's eCo-op Work Website</title>
+   <!-- Next that will be add is the page description. -->
+   <meta name="description" content="Sara's eCo-op Work Website">
+   <!-- The next meta tag speaks directly to search engines. It uses this to tell search engines whether we want our application hidden or if we want the website indexed. -->
+   <meta name= "robots" content= "noindex, nofollow">
+   <!--Here I am dd the css.-->
+   <link rel="stylesheet" href="./style.css">
+ </head>
+   <!-- After the head element, add the body element. This element is what contains all the content that will be visiable to the end user. -->
+    <body>
+      <header>
+      <div>
+        <a href= "index.html"><img src="./butterfly.jpg" alt = "logo"></a>
+        </div>
+        <!--Here I am adding my nav -->
+           <nav>
+             <!--Here I am adding my ul -->
+             <ul>
+             <!-- Here I am adding the links to go to another page -->
+
+             <div class="dropdown1">
+               <button class="dropbtn">Business</button>
+               <div class="dropdown-content">
+                 <a href="index.html">Home</a>
+                 <a href="loginbusiness.html">Log In</a>
+                 <a href="signupregisterbusiness.html">Sign Up/Register</a>
+                 <a href="updatebusiness.html">Update Your Business Information</a>
+                 <a href="contactandsupportbusiness.html">Contact & Support</a>
+               </div>
+             </div>
+           </ul>
+         </nav>
+         </header>
+
+         <main>
+
+ <section>
+  <form action="/action_page.php">
+    <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Create Username" name="usrnm">
+  </div>
+  </section>
+  <section>
+    <form action="/action_page.php">
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Create Password" name="password">
+      </section>
+      <section>
+        <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+      <button type="submit" class="btn">Submit</button>
+      </section>
+      <section>
+      <button type="Reset" class="btn">Reset</button>
+      </section>
+      <section>
+      <button type="Forgot Password?" class="btn">Forgot Password?</button>
+      </section>
+  </main>
+
+      <footer>
+       <div>
+        <li><a href="aboutus.html">About us</a></li>
+        <p>Stay Connect</p>
+       </div>
+      </footer>
+
+
+
+     </body>
+     </html>
